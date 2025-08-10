@@ -10,21 +10,7 @@
     grid-gap: 10px;
 }
 
-.header {
-  grid-area: he;
-  background-color: aqua;
-}
-
-.header img {
-  width: 40px;
-}
-
-.menu {
-  grid-area: me;
-  background-color: aquamarine;
-}
-
-.content {
+.app-wrapper-content {
   grid-area: co;
   background-color: lightgoldenrodyellow;
 }
