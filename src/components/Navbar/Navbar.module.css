@@ -1,7 +1,11 @@
-.nav {
+.wrapper {
   grid-area: me;
   background-color: aquamarine;
   padding: 20px;
+}
+
+.menuWrapper {
+  padding-bottom: 70px;
 }
 
 .item {
