@@ -1,6 +1,4 @@
-let rerenderEntireTree = () => {
-  console.log('State changed');
-};
+import {rerenderEntireTree} from "../render";
 
 let state = {
   profilePage: {
@@ -44,12 +42,7 @@ export let addPost = (postMessage)=> {
     likesCount: 0
   };
   state.profilePage.postsData.push(newPost);
-
   rerenderEntireTree(state);
-};
-
-export const subscribe = (observer) => {
-  rerenderEntireTree = observer;
 };
 
 export default state;
