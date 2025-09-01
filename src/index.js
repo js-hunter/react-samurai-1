@@ -4,6 +4,7 @@ import reportWebVitals from './reportWebVitals';
 import state from './redux/state';
 import {rerenderEntireTree} from "./render";
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // let rerenderEntireTree = (state) => {
